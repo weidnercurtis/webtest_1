@@ -1,0 +1,59 @@
+<html>
+
+<head>
+	<link href = "css_webtest_2.css" rel = "stylesheet" type = "text/css" />
+
+	<script type = "text/javascript">
+
+		function aboutPage () {
+			document.getElementById('currentText').innerHTML = 'Hello. <br /><br />' + 
+																	'My name is Curtis Weidner. I am currently completing my 1B Term in Mangament Engineering at the University of Waterloo. <br /><br/>' + 
+																	'Put simply, Mangament Engineering combines the savy decision making techniques of a business program with the highly quantitative, objective fundamentals held in engineering. <br /><br/>'+
+																	'My personal interests span everything from mathematics and economics to the study of the physical world, art history, and sartorial design. <br/>It is the opportunity to learn which I value most highly - much less the subject of said study. <br/><br/>' ;
+		}
+
+		function projectsPage () {
+			document.getElementById('currentText').innerHTML = '<b>Previous Work Term Assignments</b><br/><br/>' +
+																	'During my first coop term at ProSafe Engineering, I had the opportunity to actively participate in the development and negotiation of safety-focussed design modifications to these distinguised projects: <br / > <br />' + 
+																	'- Industrial methane extraction appliance<br/><br/>' + 
+																	'- Automobile manufacturer erogonomics <br/><br/>' + 
+																	'- Nuclear reactor probe <br/><br/>' +
+																	'- Development of inventory valuation program in MS Excel <br/><br/>' +
+																'<b>Personal Projects</b> <br/><br/>';
+		}
+
+		function workPage () {
+			document.getElementById('currentText').innerHTML = 'This is the work content...';
+		}
+
+		function resumePage () {
+			document.getElementById('currentText').innerHTML = 'For a condensed form of the information contained on this site, as well as some other information, I invite you 													to take a look at my ' +   
+																	'<a href = "weidner_curtis_resume.pdf" target= "_blank">resum&eacute</a>. <br /><br />' + 
+																	'For an alternative, albeit less by-the-book interpretation of the same information, please have a look at my second ' + '<a href = "weidner_curtis-resume.pdf" target= "_blank">resum&eacute</a>. <br /><br />';
+		}
+
+	</script>
+</head>
+
+<body>
+
+	<h1>
+		<a href = "weidner_curtis_resume.pdf" target= "_blank" class = "a1">Curtis Weidner</a>
+	</h1>
+
+	<div class = "Options">
+		<input type = 'button' onClick = 'aboutPage()' value = 'About'><input type = 'button' onClick = 'projectsPage()' value = 'Projects'><input type = 'button' onClick = 'workPage()' value = 'Work Experience'><input type = 'button' onClick = 'resumePage()' value = 'Resum&eacute'>
+	</div>
+
+	<h2>
+		<p id= 'currentText'></p>
+	</h2>
+
+	
+
+
+
+</body>
+
+
+</html>

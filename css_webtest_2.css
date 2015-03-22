@@ -1,0 +1,55 @@
+input {
+	border: 0; 
+	background: none; 
+	font-family:  "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+	cursor: pointer;
+	outline: 0 none; 
+} 
+
+input:hover {
+	text-decoration: underline; 
+}
+
+.Options {
+	text-align: center; 
+	padding-top: 0; 
+}
+
+.a1 {
+	color: black;
+	background: none; 
+	text-align: center; 
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+	text-decoration: none; 
+	font-size: 25;
+	font-weight: lighter; 
+}
+
+.a1:visited {
+	text-decoration: none; 
+}
+
+h1 {
+	text-align: center;
+	padding-top: 30; 
+	padding-bottom: 0; 
+}
+
+h2 {
+
+	color: black;
+	padding-top: 8;
+	margin-left: 23%;
+	margin-right: 23%;
+	text-decoration: none;
+	text-align: left; 
+	font-size: 12;
+	font-weight: lighter; 
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+
+}
+
+h2:visited {
+	text-decoration: none;
+}
+
